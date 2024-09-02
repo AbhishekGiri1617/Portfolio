@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Abhishek Kumar Giri</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="#" class="link"><u>AKG.</u></a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Abhishek Kumar Giri.</span></h1>
+        <h2 class="about__role">A Machine Learning Enthusiast.</h2>
+        <p class="about__desc">
+          • Aspiring Software Engineer : Bringing over a year of professional experience in software development and system 
+engineering, with a strong foundation in Machine Learning technologies.<br> 
+• Proficient in Programming Languages: Skilled in C, C++, Python, and SQL, with hands-on experience in 
+Snowflake and data-driven technologies. <br>
+• Experience : Enthusiastic about machine learning, with a keen interest in exploring and integrating AI-driven 
+solutions. Competent in developing and maintaining applications using HTML, CSS, JavaScript, and React, with a 
+focus on creating dynamic, user-centric web and mobile applications. <br>
+• Collaborative Team Player: Proven ability to work effectively in cross-functional teams, contributing to both 
+individual and team-based projects, with a track record of adaptability and problem-solving. 
+        </p>
+
+        <div class="about__contact center">
+          <a href="Abhishek REsume.pdf">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/AbhishekGiri1617"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/abhishekgiri16/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Autonomous Driving using Reinforcement learning in Carla:</h3>
+            <p class="project__description">
+              • Developed an autonomous driving model using reinforcement learning, specifically implementing the Proximal Policy 
+Optimization (PPO) algorithm for robust decision-making and stability in complex driving environments. <br>
+• Utilized the CARLA simulator to create and simulate realistic urban driving scenarios, enabling the model to train and adapt to 
+diverse traffic conditions. <br>
+• Trained the PPO model within CARLA, achieving significant improvements in navigation accuracy, collision avoidance, and overall 
+driving performance. <br>
+• Integrated the PPO model into a real-time testing framework within CARLA, demonstrating its effectiveness in handling real
+world-like driving tasks.<br>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Reinforcement learning</li>
+            
+            </ul>
+
+           
+          </div>
+
+          <!-- <div class="project">
+            <h3>Project 2</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div> -->
+
+          <div class="project">
+            <h3>Smart20+ :</h3>
+            <p class="project__description">
+              Provides interactive lessons and exercises tailored for students up to class 10, enhancing their learning experience.<br> 
+              • Available as a mobile application, allowing students to access educational content anytime, anywhere. <br>
+              • Tracks student progress and adapts content to individual learning needs, promoting better understanding and retention.<br>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML, CSS, JavaScript</li>
+              <li class="project__stack-item">ReactJS</li>
+              <li class="project__stack-item">React Native</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">C/C++</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Machine Learning</li>
+          <li class="skills__list-item btn btn--plain">Reinforcement Learning</li>
+          <li class="skills__list-item btn btn--plain">Snowflake</li>       
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">AWS</li>
+          <li class="skills__list-item btn btn--plain">Azure</li>
+
+
+
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:abhishekgiri1617@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+        </section>
+
+      <section class="section contact center" id="contact"> <a>
+        <button onclick="window.location.href='tel:+1234567890'">Call Me</button>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/AbhishekGiri1617"
+        class="link footer__link"
+      >
+        Created By Abhishek Kumar Giri
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
